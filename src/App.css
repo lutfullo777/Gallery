@@ -1,8 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .App {
   text-align: center;
@@ -11,7 +11,7 @@
   background-color: rgba(0, 0, 0, 0.1);
   padding: 20px 0;
 }
-img{
+img {
   cursor: pointer;
   border-radius: 20px;
 }
@@ -23,6 +23,18 @@ img{
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 600px) {
+  .search {
+    width: 90% !important;
+  }
+  .search input {
+    width: 70% !important;
+  }
+  .search button {
+    width: 30% !important;
   }
 }
 
